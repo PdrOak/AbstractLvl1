@@ -1,0 +1,57 @@
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--preto);
+    padding: 1.5em 5%;
+    height: 40px;
+}
+
+#logo{
+    padding: 2em;
+}
+
+#icone-logo{
+    float: left;
+    padding-top: 5px;
+}
+
+hr {
+    width: 0.5px;
+    height: 30px;
+    background-color: var(--branco);
+    border: 0.5px solid var(--branco);
+    margin: 0.5em 0.5em;
+    display: inline-block;
+}
+
+#texto-logo{
+    text-align: right;
+    float: right;
+    color: var(--branco);
+    font-size: 25px;
+    padding-top: 10px; 
+    letter-spacing: -1px;
+}
+
+#header-signin{
+    padding-right: 50px;
+}
+
+#header-signin a{
+    text-decoration: none;
+    padding: 0.3em 0.8em;
+    color: var(--branco);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#request{
+    border: 1px solid var(--branco);
+    margin-right: 15px;
+}
+
+#signin{
+    background-color: var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
+}

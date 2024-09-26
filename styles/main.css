@@ -1,0 +1,49 @@
+#float-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6em;
+    margin-bottom: 0em;
+    padding: 5.5em;
+}
+
+#container{
+    display: flex;
+}
+
+.main{
+    margin-right: 1.8em;
+}
+
+.coluna-nav{
+    display: flex;
+    flex-direction: flex-start;
+    padding-bottom: 5em;
+}
+
+.coluna-nav h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.coluna-nav p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 1.3em 0;
+}
+
+.coluna-nav a{
+    text-decoration: none;
+}
+
+.icone{
+    height: 85px;
+    width: 85px;
+    margin-right: 1.5em;
+}
+
+.nav-texto{
+    display: flex;
+    flex-direction: column; /* Coloca o h2, p e a em uma coluna */
+}

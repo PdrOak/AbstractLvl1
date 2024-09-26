@@ -1,0 +1,15 @@
+@import url(styles/header.css);
+@import url(styles/busca.css);
+@import url(styles/main.css);
+@import url(styles/footer.css);
+
+:root{
+    --azul-escuro:#4C5FD5;
+    --cinza: #dadbf1;
+    --preto: #000000;
+    --branco: #fff;
+}
+
+body{
+    font-family: "GT America Standard", sans-serif;
+}

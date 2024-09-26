@@ -1,0 +1,37 @@
+#navegacao {
+    display: flex;
+    background: var(--cinza);
+    height: 25em;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-busca{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#titulo-busca{
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+#campo-busca{
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    width: 47%;
+    height: 66px;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+#campo-busca::placeholder {
+    color: black;
+}
